@@ -19,7 +19,9 @@ mongoose.set('useCreateIndex', true);
 mongoose.set('useUnifiedTopology', true);
 
 
-mongoose.connect('mongodb://localhost/yelp_camp'); // mongodb connection
+// mongoose.connect('mongodb://localhost/yelp_camp');
+mongoose.connect('mongodb+srv://dinesh:deekshu123@cluster0.4j3hm.mongodb.net/campplace?retryWrites=true&w=majority');
+// mongodb connection
 
 
 app.use(methodOverride('_method'))
