@@ -1,0 +1,23 @@
+<%- include("partials/header") %>
+
+
+
+
+<div class="container" style="border-radius: 1rem; background: rgb(236, 218, 218); text-align: center; margin-top: 100px;border: 2px solid black; width: 300px; padding: 30px;">
+   <h1 style="padding-bottom: 30px;">Signup Page</h1>
+
+   <form action="/register" method = "post">
+      <div class="form-group">
+         
+         <input type="text" name="username" placeholder="username">
+      </div>
+      <div class="form-group">
+         
+         <input type="password" name="password" placeholder="password">
+      </div>
+      <button class="btn btn-success btn-xl">Signup</button>
+
+   </form>
+</div>
+
+<%- include("partials/footer") %>
