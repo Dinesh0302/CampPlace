@@ -369,6 +369,6 @@ function checkComment(req,res , next){
 }
 
 // listen function 
-app.listen(3000, function() {
+app.listen(process.env.PORT || 3000, function() {
    console.log("Project-CampPlace server strated");
  })
